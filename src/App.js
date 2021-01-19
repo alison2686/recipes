@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Recipes.css';
 import Recipe from './components/Recipe';
 import Navigation from './components/Navigation';
 
@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       recipes: [
         {
-          title: 'Buttery Dinner Rolls',
+          title: 'Thanksgiving Dinner Rolls',
           ingredients: [
             '2 pkg. dried yeast',
             '1/2 C. warm water',
@@ -32,21 +32,29 @@ class App extends Component {
             'Bake 12-17 min. at 425 degrees',
             'To make ahead cover the rolls and refrigerate until 20 min before serving, then bake'
           ],
-          id: 'bagel'
+          id: 'rolls'
         },
         {
-          title: 'Pizza',
+          title: 'Ceasar Salad',
           ingredients: [
-            '1 Pizza Crust',
-            '1 Jar of Pizza Sauce',
-            '3 oz Part-Skim Mozerella Cheese'
+            'Romaine lettuce',
+            'Croutons',
+            '1/4 C. olive oil',
+            '1/4 C. parmesan cheese',
+            '1 T. lemon juice',
+            '1 t. dijon mustard',
+            '1 tin anchovies',
+            '2 garlic cloves',
+            '1 egg (coddled)',
+            'salt',
+            'pepper'
           ],
           steps: [
-            'Put sauce on crust',
-            'Sprinkle mozarella cheese over sauce',
-            'Bake at 350 degrees for 20 minutes'
+            'To make dressing combine parmesan, mustard, lemon juice, garlic, 2-3 anchovies, and egg in blender. Mix to combine',
+            'With blender on slowly pour olive oil to emulsify',
+            'Add salt and pepper to taste'
           ],
-          id: 'pizza'
+          id: 'ceasar'
         },
       ],
       selectedRecipe: null

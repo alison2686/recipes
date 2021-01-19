@@ -1,0 +1,68 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  
+  h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  }
+  
+  h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+
+  .Navigation__button {
+    text-align: center;
+    background-color: khaki;
+  }
+
+  .Navigation__list {
+    
+  }
+  
+  .Recipe__sub-title {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+
+    color: blue;
+  }
+
+  .Recipe__ingredients {
+    font-family: Helvetica;
+    margin: 0 auto;
+  }
+  
+
+  
+  #paint {
+    background-color: skyblue;
+  }
+  
+  
+  p,
+  li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: green;
+  }
+  
+  .pricing {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+  }
+  
